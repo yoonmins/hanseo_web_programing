@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sungmin.css">
+    <title>여행 조사</title>
+    </head>
+    <body>
+        <div class="inputBox">
+            <p>여행 지역</p>
+            <input type="text" list="region">
+            <datalist id="region">
+                <option value="강원도"></option>
+                <option value="충청도"></option>
+                <option value="전라도"></option>
+                <option value="경상도"></option>
+            </datalist>
+
+            <p>교통 수단</p>
+            <input type="text" list="transport">
+            <datalist id="transport">
+                <option value="자동차"></option>
+                <option value="기차"></option>
+                <option value="비행기"></option>
+            </datalist>
+
+            <p>여행 기간</p>
+            <input type="text" list="duration">
+            <datalist id="duration">
+                <option value="1박 2일"></option>
+                <option value="2박 3일"></option>
+                <option value="3박 4일"></option>
+                <option value="4박 5일"></option>
+            </datalist>
+
+            <p>숙박 시설</p>
+            <input type="text" list="accommodation">
+            <datalist id="accommodation">
+                <option value="호텔"></option>
+                <option value="게스트하우스"></option>
+                <option value="펜션"></option>
+                <option value="캠핑"></option>
+            </datalist>
+            <button>GO!</button>
+        </div>
+    </body>
+</html>

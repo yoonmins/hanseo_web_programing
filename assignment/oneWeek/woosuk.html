@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>옵션이 있는 문자 입력하기</title>
+        <link rel="stylesheet" href="sungmin.css">
+    </head>
+    <body>
+        <div class="inputBox">
+            <p>좋아하는 음악은</p>
+            <input type="text" list="music">
+            <datalist id="music">
+                <option value="클래식"></option>
+                <option value="재즈"></option>
+                <option value="힙합"></option>
+                <option value="팝"></option>
+                <option value="발라드"></option>
+            </datalist>
+            <p>듣고 싶은 상황은</p>
+            <input type="text" list="situations">
+            <datalist id="situations">
+                <option value="카페에서"></option>
+                <option value="산책할 때"></option>
+                <option value="여행 중에"></option>
+                <option value="공부할 때"></option>
+                <option value="운동할 때"></option>
+            </datalist>
+            <button>GO!</button>
+        </div>
+    </body>
+</html>
