@@ -1,0 +1,22 @@
+h2 {
+  color : blue;
+  background-color: ;
+}
+
+p {
+  color: gray;
+  width: 150%;
+}
+
+#banana_test h2 {
+  color :aqua;
+  background-color:white ;
+}
+
+.red_fruit {
+  color: blue;
+}
+
+.green_fruit {
+  color:brown;
+}
