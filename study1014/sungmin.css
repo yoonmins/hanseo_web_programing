@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#banana_test h2, #banana_test p{
+    color: purple;
+}
+#banana_test span{
+    background-color: #ff8;
+}
+#banana_test .red_fruit{
+    color: red;
+}
+#banana_test .green_fruit{
+    color: green;
+}
+
+#banana_test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100vw;
+}
+#banana_test h2{
+    color: green;
+    background-color: #def;
+    width: 150px;
+    text-align: center;
+}
+
+#banana_test p{
+    text-align: center;
+    color: #209134;
+    width: 300px;
+}
