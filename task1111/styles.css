@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+h1{
+    color: wheat;
+}
+a{
+    color: orange;
+    font-size: 20px;
+}
+
+.task_1, .task_2, .task_3, .task_4{
+    background-color: #cbeefe;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 25px;
+}
+
+.task_1{
+    border-radius: 10px;
+}
+.task_2{
+    border-radius: 20px 40px;
+}
+.task_3{
+    border-radius: 20px 80px;
+}
+.task_4{
+    border-radius: 50%;
+}
