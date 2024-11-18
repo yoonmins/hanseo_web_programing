@@ -12,7 +12,7 @@ function compareNumbers() {
   if (a > b) {
     document.getElementById('result').innerText = 'A가 B보다 큼';
   } else if (a < b) {
-    document.getElementById('resulr').innerText = 'A가 B보다 작음';
+    document.getElementById('result').innerText = 'A가 B보다 작음';
   } else {
     document.getElementById('result').innerText = 'A와 B가 같음';
   }
