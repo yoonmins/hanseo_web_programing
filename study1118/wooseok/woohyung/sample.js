@@ -17,4 +17,4 @@ function compareNumbers() {
     document.getElementById('result').innerText = 'A와 B가 같음';
   }
 }    
-</script> 
+</script>
