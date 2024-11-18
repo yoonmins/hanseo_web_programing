@@ -1,11 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 7a1d2f296f9e43ebf4c21a3c705a5f4c0100ecfb
->>>>>>> Stashed changes
   function compareNumbers() {
     // input 값 가져오기
     let a = document.getElementById('inputA').value;
@@ -23,11 +15,4 @@
     } else {
       document.getElementById('result').innerText = 'A와 B가 같음';
     }
-<<<<<<< HEAD
-  }    
-<<<<<<< Updated upstream
-=======
-=======
-  }    
->>>>>>> 7a1d2f296f9e43ebf4c21a3c705a5f4c0100ecfb
->>>>>>> Stashed changes
+  }  
