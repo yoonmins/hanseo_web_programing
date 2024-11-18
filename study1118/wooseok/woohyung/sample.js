@@ -1,4 +1,4 @@
-<script>
+
   function compareNumbers() {
     // input 값 가져오기
     let a = document.getElementById('inputA').value;
@@ -17,4 +17,3 @@
       document.getElementById('result').innerText = 'A와 B가 같음';
     }
   }    
-</script>
