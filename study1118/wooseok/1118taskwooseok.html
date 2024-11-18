@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>switch 조건문</title>
+    </head>
+<body>
+    <script>
+        let coupon = parseInt(print("쿠폰 개수를 입력하시오"));
+        document.write("쿠폰:"+ coupon +"정<br>");
+        coupon = Math.floor(coupon/10);
+        switch (coupon) {
+            case 2:
+                document.write("여행 가방"); // 20이상일때
+                break;
+            case 1:
+                document.write("다이어리");  // 10 이상일 때
+                break;
+            default: 
+                document.write("커피 한 잔");  // 10 미만일 때
+        }
+    </script>
+</body>
+</html>
