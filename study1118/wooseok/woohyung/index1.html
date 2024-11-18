@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let coupon = parseInt(prompt("쿠폰 개수를 입력하시오"));
+    document.write("쿠폰: " + coupon + "장<hr>");
+    coupon = Math.floor(coupon / 10);
+    switch (coupon) {
+      case 2:
+        document.write("여행 가방"); // 20 이상일 때
+        break;
+      case 1:
+        document.write("다이어리"); // 10 이상일 때
+        break;
+      default:
+        document.write("커피 한 잔"); // 10 미만일때
+    }
+  </script> 
+</body>
+</html>
