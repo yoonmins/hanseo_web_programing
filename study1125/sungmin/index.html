@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Person(name,age){
+            this.age = age;
+            this.name = name;
+
+            this.intro = function(){
+                document.write("My name : " + this.name + ", age :" + this.age+"<hr>");
+            }
+        };
+
+        let person1 = new Person("Yoon",24);
+        let person2 = new Person("Seok",23);
+        person1.intro();
+        person2.intro();
+    </script>
+</body>
+</html>
