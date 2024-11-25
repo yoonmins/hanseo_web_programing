@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>사용자 객체 선언 및 사용하기</title>
+    </head>
+    <body>
+        <script>
+            function Country (name, capital) {
+                this.capital = capital;
+                this.intro = function() {
+                    document.write("The Country: " + this.name + ", capital: " + this.capital + "<hr>");
+                }
+            };
+            let country1 = new Country("Republic of Korea","Seoul");
+            let country2 = new Country("Japan","Tokyo");
+            country1.intro();
+            country2.intro();
+        </script>
+    </body>
+</html>
