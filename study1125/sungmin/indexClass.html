@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>사용자 객체 선언 및 사용하기</title>
+    </head>
+    <body>
+        <script>
+            class PerosnInfo {
+                constructor(name, role) {
+                this.name = name;
+                this.role = role;
+            }
+            intro() {
+                document.write("The Information: " + this.name + ", role: " + this.role + "<br>");
+            }
+        }
+        let country1 = new PerosnInfo("sungmin", "FE dev");
+        let country2 = new PerosnInfo("wooseok", "BE dev");
+        country1.intro();
+        country2.intro(); 
+        </script>
+    </body>
+</html>
